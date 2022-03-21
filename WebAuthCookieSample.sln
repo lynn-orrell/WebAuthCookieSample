@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{C3C94679-DF11-4116-AE06-593D7C21D976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{C3C94679-DF11-4116-AE06-593D7C21D976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndService", "BackEndService\BackEndService.csproj", "{C6363330-0C2B-49C4-B5C0-76B2718EAD34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEndService", "BackEndService\BackEndService.csproj", "{C6363330-0C2B-49C4-B5C0-76B2718EAD34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C02AD46-80ED-46B8-8CB6-2FE3178C5B6E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
